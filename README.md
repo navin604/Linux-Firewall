@@ -1,7 +1,7 @@
 # Linux-Firewall
 Scripts to set up a specific network config and firewall to control access to an internal network
 
-Rules implemented:
+Rules implemented:  
   • Inbound/Outbound TCP packets on allowed ports.  
   • Inbound/Outbound UDP packets on allowed ports.  
   • Inbound/Outbound ICMP packets based on type numbers.  
