@@ -2,10 +2,10 @@
 Scripts to set up a specific network config and firewall to control access to an internal network
 
 Rules implemented:
-  • Inbound/Outbound TCP packets on allowed ports.
-  • Inbound/Outbound UDP packets on allowed ports.
-  • Inbound/Outbound ICMP packets based on type numbers.
-  • All packets that fall through to the default rule will be dropped.
+  • Inbound/Outbound TCP packets on allowed ports.  
+  • Inbound/Outbound UDP packets on allowed ports.  
+  • Inbound/Outbound ICMP packets based on type numbers.  
+  
   • Drop all packets destined for the firewall host from the outside.
   • Do not accept any packets with a source address from the outside matching your internal network.
   • You must ensure the firewall rejects those connections that are coming the “wrong” way (i.e., inbound SYN packets to high ports).
